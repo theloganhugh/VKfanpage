@@ -1,0 +1,461 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+  background-color: #003858;
+}
+
+.bg1,
+.bg2,
+.bg3 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#myVideo {
+  background-attachment: fixed;
+  width: 100%; 
+  height: 100%;
+  z-index: 1;
+}
+.overnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+  
+  z-index: 2;
+}
+
+#navbar {
+
+  
+  border-left: 70px solid transparent;
+  border-top: 60px solid #fda32e;;
+  height: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  position: fixed;
+top:0%;
+right: -8%;
+  z-index: 2;
+}
+.nav1 {
+  color: #960032;
+  text-decoration: none;
+  position:fixed;
+  top: 1%;
+right: 37%;
+font-family: 'Cairo', sans-serif;
+letter-spacing: 2px;
+}
+.nav2 {
+  color: #960032;
+  text-decoration: none;
+    position: fixed;
+    top:1%;
+  right: 23%;
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 2px;
+  }
+  .nav3 {
+    color: #960032;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Cairo', sans-serif;
+    position: fixed;
+    top: 1%;
+
+  right: 1%;
+  }
+.bg1 {
+
+  min-height: 100%;
+  font-family: "Bonheur Royale", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.timeline {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: #05386b;
+}
+.tlimg{
+  max-width: 300px;
+  background-size: cover;
+  border-radius: 5px;
+  
+}
+.tlimgg{
+  
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background: #960032;
+  box-shadow: 0 0 10px #fda32e;
+  border-radius: 10px;
+  padding: 1.1rem;
+
+}
+.tlcom{
+  margin: 0 20px 20px 20px;
+}
+
+.tlcombg {
+  padding: 1.5em;
+  background: #5cdb95;
+  box-shadow: 0 0 10px #379683;
+  border-radius: 10px;
+}
+
+
+.tlcombottom {
+  margin-bottom: 0;
+}
+
+.tlmid {
+  position: relative;
+  background: #ffffff;
+}
+
+.tlpoint {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timpointbot {
+  position: absolute;
+  top: 0;
+  left: 106.3%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: initial;
+  bottom: 0;
+  
+}
+
+.tldater {
+  text-align: right;
+}
+
+.tltitle {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.tlpara {
+  line-height: 1.5;
+}
+
+.bg2 {
+height: auto;
+padding:40px ;
+text-decoration: underline;
+
+}
+.text1{
+ 
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+
+}
+
+.bg3 {
+  background-image: url("https://www.dkoding.in/wp-content/uploads/Virat-Kohli-Termed-As-Jesus-Christ-CWC19-Cricket-Sports-DKODING.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #fda32e;
+  color: #960032;
+  padding: 18px;
+  font-size: 3rem;
+  letter-spacing: 10px;
+}
+#timel{
+  border-bottom : 3px #ffffff solid ;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.slidecon{
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  background-color: #003858;
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  transition:  0.5s ease-in-out;
+}
+#slide{
+  background-color: #edf5e1;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 40% 120px;
+  height: 93%;
+  transition: background-color 1s ease-in-out;
+}
+#textslide{
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70%;
+}
+#bodys{
+  font-size: 23px;
+  width: 40%;
+  text-align: center;
+  font-family: 'Hubballi', cursive;
+  font-weight: 550;
+  transition:  0.5s ease-in-out;
+}
+#heads{
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  width: 80%;
+  transition:  0.5s ease-in-out;
+}
+#imageslide{
+  box-shadow: 15px 15px 30px black;
+  transition:  0.5s ease-in-out;
+}
+#imgs{
+  width: 100%;
+  height: 100%;
+  max-height: 370px;
+  max-width: 492px;
+  background-size: cover;
+background-repeat: no-repeat;
+transition:  0.5s ease-in-out;
+
+}
+#buttonslide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#nexts{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}
+#prevs{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#nexta{
+  width: 53.5%;
+  height: 53.5%;
+  font-size: 6rem;
+  transform: rotate(90deg);
+  text-align: center;
+}
+#preva{
+  width: 53.5%;
+  height: 53.5%;
+  transform: rotate(-90deg);
+  font-size: 6rem;
+  text-align: center;
+}
+#nexta:hover{
+  cursor: pointer;
+  color: black;
+}
+#preva:hover{
+  cursor: pointer;
+  color: black;
+}
+#footer{
+  padding-top: 20px;
+  background-color: #f7ef6a;
+  color: #05386b;
+}
+.hide{
+  display: none;
+}
+.line1{
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.line2{
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.namef{
+  margin: 10px;
+}
+#buttf{
+  display: inline-block;
+  background: none;
+  border: none;
+  background-color: #37968b;
+  padding: 10px;
+  border: #37968b solid 3px;
+  border-radius: 5px;
+  color: #f7ef6a;
+  transition: background-color 0.5s ease-in-out;
+}
+#after{
+  display: none;
+}
+#buttf:hover{
+  display: inline-block;
+  background: none;
+  border: none;
+  background-color: #05386b;
+  color: #f7ef6a;
+  border: #05386b solid 3px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.newline{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100vw;
+  height: auto;
+
+}
+input[type=text], select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.boxform{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#msg{
+  width: 400px;
+  padding: 40px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bg1,
+  .bg2,
+  .bg3 {
+    background-attachment: scroll;
+  }
+
+}
+@media only screen and (max-device-width: 1300px) {
+ 
+  .newline{
+    display: block;
+    width: 100vw;
+  }
+  
+  }
+  @media only screen and (max-device-width: 890px) {
+    
+    
+    input[type=text], select{
+      width: 40vw;
+    }
+   #msg{
+     width: 40vw;
+   }
+   }
+   @media only screen and (max-device-width: 657px) {
+    
+    
+    #hidebef{
+      display: none;
+    }
+   }
+   
+   @media only screen and (max-device-width: 523px) {
+    
+    
+  .line1{
+    justify-content: center;
+  }
+   }
+   
+   @media only screen and (max-device-width: 473px) {
+    
+    
+    .namef{
+      display: none;
+    }
+     }
+     

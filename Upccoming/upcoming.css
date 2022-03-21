@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    padding: 5px;
+    padding-top: 5px;
+    background-color: #14213d;
+    position: fixed;
+    top:0%;
+}
+.anher{
+    text-decoration: none;
+    color: #fca311;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.anher:hover{
+    text-decoration: overline;
+}
+#headele{
+    font-family: 'Fleur De Leah', cursive;
+    color: #fca311;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#link{
+  
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+#footer{
+    padding-top: 20px;
+    background-color: #f7ef6a;
+    color: #05386b;
+  }
+  .hide{
+    display: none;
+  }
+  .line1{
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .line2{
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .namef{
+    margin: 10px;
+  }
+  #buttf{
+    display: inline-block;
+    background: none;
+    border: none;
+    background-color: #37968b;
+    padding: 10px;
+    border: #37968b solid 3px;
+    border-radius: 5px;
+    color: #f7ef6a;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #after{
+    display: none;
+  }
+  #buttf:hover{
+    display: inline-block;
+    background: none;
+    border: none;
+    background-color: #05386b;
+    color: #f7ef6a;
+    border: #05386b solid 3px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .newline{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    height: auto;
+  
+  }
+  input[type=text], select {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .boxform{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #msg{
+    width: 400px;
+    padding: 40px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  .headbg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      background-image: url("https://www.cricketsoccer.com/wp-content/uploads/2017/04/18160000_120332000348305571_1336878333_o.jpg");
+      height: 600px; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .headbg >p{
+        
+       color: #240046;
+       background-color: rgba(245, 241, 241, 0.479);
+        letter-spacing: 2px;
+        font-family: 'Road Rage', cursive;
+        font-size: 120px;
+        box-shadow: 15px 15px 50px black;
+        
+    }
+ .con{
+   padding-top: 20px;
+   width: 80%;
+   height: auto;
+  
+ }
+ .match{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 100%;
+   height: auto;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   border-bottom: #14213d solid 3px;
+ }
+ .img{
+   width: 600px;
+   max-width: 600px;
+   height: 400px;
+   max-height: 400px;
+   background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/04/09/968962-ma-chidambaram-stadium.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+ .info{
+   width: 40%;
+   height: auto;
+   padding: 50px;
+   padding-top: 70px ;
+   line-height: 2.3rem;
+   font-family: 'Nunito', sans-serif;
+   font-size: 1.5rem;
+   background-color: #274c77;
+   color: white;
+
+ }
+ .headinfo{
+   font-size: 1.7rem;
+   font-weight: 600;
+   padding-bottom: 20px;
+ }
+ .body{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ @media only screen and (max-device-width: 1300px) {
+  .line1{
+    display: none;
+  }
+ .newline{
+   display: block;
+   width: 100vw;
+ }
+ 
+ }
+ @media only screen and (max-device-width: 890px) {
+   
+   
+   input[type=text], select{
+     width: 40vw;
+   }
+  #msg{
+    width: 40vw;
+  }
+  }
+  @media only screen and (max-device-width: 657px) {
+  
+  
+    #hidebef{
+      display: none;
+    }
+   }
+   
+   @media only screen and (max-device-width: 523px) {
+    
+    
+  .line1{
+    justify-content: center;
+  }
+   }
+   
+   @media only screen and (max-device-width: 473px) {
+    
+    
+    .namef{
+      display: none;
+    }
+     }
+     @media only screen and (max-device-width: 1040px) {
+    
+    .info{
+      font-size: 15px;
+    }
+       }
+       @media only screen and (max-device-width: 705px) {
+    
+    
+        .img{
+          display: none;
+        }
+        .match{
+         
+          width: 90vw;
+        }
+        .info{
+          width: 50vw;
+        }
+         }
+         @media only screen and (max-device-width: 704px) {
+    
+    
+          #headele{
+            display: none;
+          }
+          #link{
+            width: 100vw;
+          }
+           }
